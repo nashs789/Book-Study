@@ -29,4 +29,4 @@
 - 1차: [쉽게 배우는 운영체제](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309137993)
 - 2차: [운영체제](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=235360651)
 ## 데이터 베이스
-- [데이터베이스 시스템](https://product.kyobobook.co.kr/detail/S000001732315)
+- [데이터베이스 시스템](https://product.kyobobook.co.kr/detail/S000001732315)
