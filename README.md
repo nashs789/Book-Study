@@ -18,6 +18,7 @@
 |주차|과목|내용|참여여부|링크|
 |---|:---:|:---:|:---:|:---:|
 |Week01|운영체제|OS 개요, 컴퓨터 구조|✅|[ch01](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/Week01-Chapter01.md), [ch02](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/Week02-Chapter01.md)|
+|Week02|운영체제|OS 개요, 컴퓨터 구조|✅|ch03|
 </br>
 
 # **[ 📖 교재 ]**
