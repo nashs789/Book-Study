@@ -22,7 +22,7 @@ CPU와 한정된 자원을 이용해서 여러개의 프로세스를 실행 시�
 
 #### ⚙ PCB(Process Control Block)
 구성 정보
-- 프로세스 식별자(Process IDentification, PID)
+- 프로세스 식별자(Process Identification, PID)
   - 각 프로세스를 고유하게 식별하는 번호, 프로세스간 통신, 리소스 할당, 권한 관리등을 식별번호로 기반으로 수행한다.
   - 고유하게 사용되나 프로세스가 종료된 후에는 다른 프로세스가 폐기된 PID를 할당 받아서 사용 가능하다.
 - 프로세스 상태(Process State)
