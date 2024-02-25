@@ -20,7 +20,7 @@
 |Week01|운영체제|OS 개요, 컴퓨터 구조|✅|[ch01](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%5BWeek01%5D%20Chapter01.md), [ch02](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%5BWeek01%5D%20Chapter02.md)|
 |Week02|운영체제|프로세스와 스레드|✅|[ch03](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%5BWeek02%5D%20Chapter03.md)|
 |Week03|운영체제|CPU 스케줄링|✅|[ch04](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%5BWeek04%5D%20Chapter04.md)|
-|Week04|운영체제|프로세스 동기화||ch05|
+|Week04|운영체제|프로세스 동기화||ch05|
 </br>
 
 # **[ 📖 교재 ]**
