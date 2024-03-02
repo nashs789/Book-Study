@@ -251,3 +251,64 @@ fork()를 통해서 생성된 자식 프로세스에게 부모가 open() 했던 
 lseek() 를 통해서 위치를 재조정 하는 이유는 자식이 write() 작업을 한 직후 부모가 읽게 되면 fd가 변경되서 엉뚱한 위치에서 부터 읽게 된다.
   
 중요한건 파일을 통한 프로세스 간 통신은 OS 레벨에서 동기화를 지원해주지 않기 때문에 wait() 같은 함수를 이용해서 동기화를 사용해야 한다.
+
+#### ⚙︎ 파이프
+동기화를 지원하는 단방향 통신 시스템으로 이름이 없는 파이프를 주로 가르킨다.
+
+```
+#include <stdio.h>
+#include <unistd.h>
+
+void main() {
+  int pid, fd[2];
+  char buf[5];
+  
+  if(pipe(fd)==-1) exit(-1);
+  pid = fork();
+  
+  if(pid<0) exit(-1);
+  
+  else if(pid==0) {
+    close(fd[0]);
+    write(fd[1], "Test", 5);
+    close(fd[1]);
+    exit(0);
+  }
+  
+  else {
+    close(fd[1]);
+    read(fd[0], buf, 5);
+    close(fd[0]);
+    printf("%s", buf);
+    exit(0);
+  }
+} 
+```
+
+코드를 보면 알 수 있듯이 프로세스당 fd를 두고(read, write) 부모와 자식이 필요 없는 fd 는 close 를 통해서 닫아둔다.  
+파일과 다르게 wait() 가 없어서 순서 보장이 안될 것 처럼 보이지만 파이프는 대기가 있는 통신이라 필요가 없다.
+
+#### ⚙ 네트워킹
+소켓을 사용한 네트워킹에서도 open(), read(), write(), close() 구조를 사용한다.  
+클라이언트와 서버 둘 다 소켓을 사용하며, 소켓은 파이프와 달리 양방향 통신과 동기화를 지원한다.
+
+```
+    socket()            socket()
+       |                   ↓
+       |                 bind()
+       |                   ↓
+       |                listen()
+       ↓                   ↓
+    connect()    →      accept()
+       ↓                   ↓
+ read()/write()  ↔   read()/write()
+       ↓                   ↓
+    close()             close()
+```
+
+- bind(): 서버는 소켓 생성 후 포트에 등록
+- listen(): 클라이언트를 대기
+- accept(): 연결
+- connect(): 클라이언트가 소켓 생성 후 서버와 접속 시도
+
+서버는 여러 사람이 사용할 수 있도록 하나의 포트에 여러개의 소켓을 생성한다.
