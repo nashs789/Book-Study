@@ -24,7 +24,8 @@
 |Week02|운영체제|프로세스와 스레드|✅|[ch03](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Ch03%20-%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)|
 |Week03|운영체제|CPU 스케줄링|✅|[ch04](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Ch04%20-%20CPU%20%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md)|
 |Week04|운영체제|프로세스 동기화|✅|[ch05](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Ch05%20-%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EB%8F%99%EA%B8%B0%ED%99%94.md)|
-|Week05|운영체제|교착 상태의 개요|⚠️|[ch06](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Ch06%20-%20%EA%B5%90%EC%B0%A9%20%EC%83%81%ED%83%9C.md)|
+|Week05|운영체제|교착 상태의 개요|✅|[ch06](https://github.com/nashs789/Book-Study/blob/main/Operating%20System(OS)/%EC%89%BD%EA%B2%8C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Ch06%20-%20%EA%B5%90%EC%B0%A9%20%EC%83%81%ED%83%9C.md)|
+|Week06|운영체제|물리 메모리 관리|✅|ch07||
 
 ****
 
